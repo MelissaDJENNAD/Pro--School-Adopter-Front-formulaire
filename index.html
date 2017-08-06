@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+
+
+    <!--BOOTSTRAP-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <!--FIN BOOTSTRAP-->
+
+
+
+    <!--FAIRE FONCTIONNER DATETIMEPICKER-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+
+
+    <!--BOOTSTRAP VALIDATOR-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+    <!--<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"> </script>
+
+
+
+    <!--LIEN POUR CSS-->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootflat/2.0.4/css/bootflat.min.css">
+    <link rel="stylesheet" href="SASS/DOSSIER_CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>Pro- School</h1>
+                </div>
+            </div>
+            <div class="row haut">
+                <div class="col-lg-offset-3 col-lg-3">
+
+                    <button type="button" class="btn btn-success btn-lg">Adepte</button>
+                </div>
+                <div class="col-lg-3">
+                    <button type="button" class="btn btn-info btn-lg">Adopter</button>
+                </div>
+                <div class="col-lg-12 formulaire">
+                    <!--FORMULAIRE CONNECTION-->
+
+
+                    <!--   <form id="adepte">
+                           <div class="form-group">
+                               <label for="exampleInputEmail1">Email address</label>
+                               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                           </div>
+                           <div class="form-group">
+                               <label for="exampleInputPassword1">Password</label>
+                               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                           </div>
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+                       </form>-->
+
+                    <!--FIN FORMULAIRE CONNECTION-->
+
+
+                    <!--OU LORS DU CHOIX-->
+
+
+                    <!--FORMULAIRE INSCRIPTION-->
+
+
+                        <form id="adopter">
+        <div class="form-group">
+            <label for="prenom">Nom</label>
+            <input type="text" class="form-control" id="prenom" name="name" placeholder="Prenom">
+        </div>
+        <div class="form-group">
+            <div class="input-group date" id="datetimepicker1">
+                <input type="text" class="form-control" name="birthday" placeholder="DD/MM/YYYY"/> <span class="input-group-addon"><span
+                    class="glyphicon-calendar glyphicon"></span></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Sign up</button>
+            </div>
+        </div>
+    </form>
+
+
+                    <!--FIN FORMULAIRE INSCRIPTION-->
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="col-lg-6 image"></div>
+
+    </div>
+</div>
+
+
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $('#datetimepicker1').datetimepicker({
+            maxDate: $.now(),
+            viewMode: 'years',
+            format: 'DD/MM/YYYY'
+        });
+        $('.date')
+            .on('dp.change dp.show', function(e) {
+                // Revalidate the date when user change it
+                $('#adopter').bootstrapValidator('revalidateField', 'birthday');
+            });
+
+
+        $('#adopter').bootstrapValidator({
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                name: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The name is required and cannot be empty'
+                        }
+                    }
+                },
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The email address is required'
+                        },
+                        emailAddress: {
+                            message: 'The input is not a valid email address'
+                        }
+                    }
+                },
+                password: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The password is required and cannot be empty'
+                        },
+                        different: {
+                            field: 'username',
+                            message: 'The password cannot be the same as username'
+                        },
+                        stringLength: {
+                            min: 8,
+                            message: 'The password must have at least 8 characters'
+                        }
+                    }
+                },
+                birthday: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The date of birth is required'
+                        },
+                        date: {
+                            format: 'DD/MM/YYYY',
+                            message: 'The date of birth is not valid'
+                        }
+                    }
+                },
+            },
+/*            submitHandler: function(validator, form, submitButton) {
+                var fullName = [validator.getFieldElements('name').val()].join(' ');
+                alert('Hello ' + fullName);
+            }*/
+        });
+    });
+</script>
+</body>
+</html>
